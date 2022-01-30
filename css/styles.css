@@ -1,0 +1,138 @@
+/****************************SELECTOR**************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-size: 0.9375rem;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+p{
+  color: hsl(229, 6%, 66%);
+}
+
+/****************************CLASS SELECTOR**************************************/
+.main-container{
+  width: 100%;
+  margin: 50px auto;
+}
+
+.top-title{
+  font-size: 30px;
+  font-weight: 300;
+  color: hsl(234, 12%, 34%);
+}
+
+.main-title{
+  width: 100%;
+  text-align: center;
+}
+
+.middle-title{
+  margin: 20px auto;
+  text-align: center;
+  width: 35%;
+}
+
+
+.card-container{
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container-1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.container-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.container-3{
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.card{
+  height: 250px;
+  max-width: 350px;
+  line-height: 2;
+  padding: 30px;
+  background-color: hsl(0, 0%, 98%);
+  text-align: left;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px hsl(245, 75%, 52%, 0.25);
+}
+
+.description{
+  width: 90%;
+}
+
+.content-1{
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.content-2{
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.content-3{
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.content-4{
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.img-card{
+  display: flex;
+  width: 80%;
+  padding: 50px;
+  justify-content: flex-end;
+
+}
+
+@media screen and (max-width:620px) {
+  .card-container{
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .main-title{
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .middle-title{
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .top-title{
+    font-size: 30px;
+    font-weight: 300;
+    color: hsl(234, 12%, 34%);
+  }
+
+}
+
+/****************************IMG CLASS SELECTOR**************************************/
